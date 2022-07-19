@@ -29,3 +29,10 @@ Please enter points: 1.234,0;10,20
 Please enter points: 1.234,0;10,20;1.234,0;10,20
 [{'x': 1.522756, 'y': 0.0}, {'x': 100.0, 'y': 400.0}, {'x': 1.522756, 'y': 0.0}, {'x': 100.0, 'y': 400.0}]
 ```
+
+## Lokální testování
+Funkčnost řešení ověříte následujícím příkazem:
+
+```bash
+pytest tests.py
+```
